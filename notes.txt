@@ -1,0 +1,41 @@
+HTML
+	-> Building block of a web page
+	-> HYPER TEXT MARKUP LANGUAGE
+		~> Hyper Text => text which takes us to other web page
+		~> Markup => tags used in formatting
+	-> blueprint of a web page
+
+1. Heading
+-> Tag => <h1>, <h2>, <h3>, ..., <h6>
+
+2. Paragraph
+-> Tag => <p>
+
+3. Anchor
+-> Tag => <a href="[link]">
+-> attribute => href
+-> value => [link]
+
+4. Image
+-> Tag => <img src="[loaction]" alt="des" width=>
+-> Attribute => src, alt, width
+-> value => [location], des,
+
+5. Break
+-> Tag => <br>
+
+6. Center
+-> Tag => <center>
+
+7. List
+-> Tag => <ol>, <ul>, <li> 
+
+8. nested website
+-> Tag => <iframe>
+
+9. Line
+-> Tag => <hr>
+
+more tags= https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+
+html boilerplate => https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/
