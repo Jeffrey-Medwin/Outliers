@@ -39,3 +39,23 @@ HTML
 more tags= https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 
 html boilerplate => https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/
+
+
+
+CSS: (cascading style sheet)
+
+The css is a style sheet used to add colors or style the html web page.
+
+CSS can be added into html by three ways.
+	-> Inline
+	-> Internal
+	-> External
+
+
+External CSS:
+-> While using class name in html we should have to use period "." before the name on css.     {class name -> . }, class name can have same
+-> While using id name in html we should have to use hashtag "#" before the name on css.     {id name -> # }, id name should not repeat
+-> universal selector -> star {*}
+
+
+time -> 1:39:14
