@@ -58,4 +58,4 @@ External CSS:
 -> universal selector -> star {*}
 
 
-time -> 1:39:14
+Display properites:
