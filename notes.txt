@@ -59,3 +59,15 @@ External CSS:
 
 
 Display properites:
+-> inline == Takes only the space of the content and cannot modify the space
+-> block == takes to whole Line
+-> inline - block == takes only the space of the content and can modify
+
+CSS Positioning:
+-> Static => Will be on the same position
+-> Relative => can be moved any where
+-> Absolute => moves from the edge of the screen
+-> Fixed => will be overlayed and will stay at the fixed position
+-> Sticky => Will the "Relative" until the positionis met. After the position is met it will be "Fixed".
+
+CSS FLEX BOX:
