@@ -71,3 +71,10 @@ CSS Positioning:
 -> Sticky => Will the "Relative" until the positionis met. After the position is met it will be "Fixed".
 
 CSS FLEX BOX:
+
+Main Axis Vs Cross Axis:
+- If main axis is row then cross axis will be column
+- If main axis is column then cross axis will be row
+
+-> To move in main axis use justify-content
+-> to move in cross axis use Align-items
