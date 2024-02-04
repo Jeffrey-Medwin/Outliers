@@ -10,7 +10,10 @@ body{
 
 .heading{
     font-family: 'Poppins', sans-serif;
+    font-size: 30px;
     text-align: center;
+    background-color: black;
+    padding: 35px;
     color: cornsilk;
 }
 
