@@ -30,5 +30,3 @@ REST:
 	~ In security REST uses SSL and HTTPS
 
 	~ REST can make use of SOAP.
-
-	
