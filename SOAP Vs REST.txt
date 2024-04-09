@@ -1,2 +1,34 @@
 SOAP - Simple Object Access Protocol
 REST - Representational State Transfer
+
+SOAP :
+	~ It is a protocol and follow strict standard for the communication between client and server.
+
+	~ SOAP only uses XML for exchanging info in its message format.
+
+	~ SOAP uses interface annotation @WebService
+
+	~ Difficult to imlement & requires more bandwidth.
+
+	~ Has ACID compliance is an advantage in SOAP.
+
+	~ Has SSL & WS
+
+	~SOAP cannot make use of REST since it is an protocol without any architecture pattern.
+
+REST: 
+	~ It is an architectural style that doesn't follow any strict standard.
+
+	~ It is not limited to use only XML file to exchange data.
+
+	~ It uses URL as annotation like @Path.
+
+	~ It is easy to implement and requires only less bandwidth.
+
+	~ REST doesn't have ACID properties.
+
+	~ In security REST uses SSL and HTTPS
+
+	~ REST can make use of SOAP.
+
+	
