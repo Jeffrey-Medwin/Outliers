@@ -17,4 +17,18 @@ WEB TERMINOLOGIES:
 		> A website could be managed by a individual or a company or an organization.
 		> There are Two types of websites.
 			1. Static website
+				- Easy to create no kowledge of database is required.
+				- Coded only in html and css.
 			2. Dynamic website
+				- Content in the website will be dynamic. Page gets update when a update is given.
+				- Uses client side scripting or server side scripting or both.
+				- Client Side:
+					-> Genterates content on the client page based on the user input
+					-> The webserver downloads the page from the server and process the code within the page to render informantion to the user
+				- Server side:
+					-> The software runs on the server and the plain pages are sent to the user.
+
+	~ HTTP Protocol:
+		> It is an application level protocol in collaborative and distributed webpages to establish communication with the client and server.
+		> It is a
+
