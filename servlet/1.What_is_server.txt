@@ -1,3 +1,15 @@
+SERVLET:
+	The servlet got two tags they are
+		Servlet tag -> class name
+		Servlet mapping tag -> URL pattern
+
+What is SERVLET?
+	~ It is a techonology used to create web application.
+	~ It is an API that provides interfaces and classes including documents.
+	~ Servlet is a interface that must be implemented to create a servlet.
+	~ Servlet is a class that extends the capabilities of the servers and responds to the incoming requests. It can respond to any requests.
+	~ Servlet is a web component that is deployed on server to create dynamic web project
+
 How servlet works?
 	There are two components. They are client and a server.
 
@@ -17,13 +29,8 @@ DYNAMIC:
 
 	To have Dynamic pages we need to use web containers.
 
-WEB CONTAINERS:o
+WEB CONTAINERS:
 	The web containers have multiple Servlet. which will be called when their speified request has be got.
-
-SERVLET:
-	The servlet got two tags they are
-		Servlet tag -> class name
-		Servlet mapping tag -> URL pattern
 
 How to avoid XML?
 	In the server 3.0 we have got annotations. These are used to map the servlet.
