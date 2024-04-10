@@ -10,27 +10,11 @@ What is SERVLET?
 	~ Servlet is a class that extends the capabilities of the servers and responds to the incoming requests. It can respond to any requests.
 	~ Servlet is a web component that is deployed on server to create dynamic web page
 
-How servlet works?
-	There are two components. They are client and a server.
-
-	The clinet makes a request to the server and then the server responds to the client by processing the request.
-
-	These request are of two types. They are
-		-> Static 
-		-> Dynamic
-
-STATIC:
-	These are the pages that are already build and the server gives the build page to the client
-
-DYNAMIC:	
-	These pages are not build by default. they are to be made when the request has been given
-
-	So there will be a helper application which is known as SERVLET.
-
-	To have Dynamic pages we need to use web containers.
-
-WEB CONTAINERS:
-	The web containers have multiple Servlet. which will be called when their speified request has be got.
-
-How to avoid XML?
-	In the server 3.0 we have got annotations. These are used to map the servlet.
+WEB TERMINOLOGIES:
+	~ WEBSITE:
+		> Webiste is a collection of related web pages that may contain Image, Audio and Video.
+		> The first page of the website is called the homepage and it could accessed by it's web address (URL).
+		> A website could be managed by a individual or a company or an organization.
+		> There are Two types of websites.
+			1. Static website
+			2. Dynamic website
