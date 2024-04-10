@@ -37,4 +37,4 @@ WEB TERMINOLOGIES:
 			1. Media independent
 			2. Connectionless
 			3. Stateless
-
+ 
