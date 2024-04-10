@@ -8,7 +8,7 @@ What is SERVLET?
 	~ It is an API that provides interfaces and classes including documents.
 	~ Servlet is a interface that must be implemented to create a servlet.
 	~ Servlet is a class that extends the capabilities of the servers and responds to the incoming requests. It can respond to any requests.
-	~ Servlet is a web component that is deployed on server to create dynamic web project
+	~ Servlet is a web component that is deployed on server to create dynamic web page
 
 How servlet works?
 	There are two components. They are client and a server.
