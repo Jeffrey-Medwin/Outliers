@@ -50,5 +50,8 @@ WEB TERMINOLOGIES:
 			8. The Cache control header
 		> Some of the request of HTTP are:
 			1. Get
-			
+			2. Post
+			3. Put
+			4. Delete
+
 			
