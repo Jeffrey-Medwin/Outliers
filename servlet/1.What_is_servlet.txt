@@ -38,3 +38,17 @@ WEB TERMINOLOGIES:
 			2. Connectionless
 			3. Stateless
  
+	~ HTTP Request:
+		> Here the requests are send by the client to the server with the following information.
+			1. The Request-line
+			2. The analysis of source IP address, proxy and port
+			3. The analysis of destination IP address, protocol, port and host
+			4. The Requested URI (Uniform Resource Identifier)
+			5. The Request method and Content
+			6. The User-Agent header
+			7. The Connection control header
+			8. The Cache control header
+		> Some of the request of HTTP are:
+			1. Get
+			
+			
