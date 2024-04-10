@@ -30,5 +30,11 @@ WEB TERMINOLOGIES:
 
 	~ HTTP Protocol:
 		> It is an application level protocol in collaborative and distributed webpages to establish communication with the client and server.
-		> It is a
+		> It is a protocol that allows for the data exchange over the web.
+		> It is a request response protocol.
+		> It uses TCP protocol.
+		> It consider each request a new request to process. Server doesnot recognize user by default.
+			1. Media independent
+			2. Connectionless
+			3. Stateless
 
