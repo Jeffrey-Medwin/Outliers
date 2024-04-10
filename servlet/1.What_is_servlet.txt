@@ -55,3 +55,10 @@ WEB TERMINOLOGIES:
 			4. Delete
 
 			
+	~ SERVER: 
+		> It can be a device or an application
+		> The duty of it is to accept the request made by other application (Client).
+		> There are two types of server
+			1. Applicaton Server
+			2. Web Server
+
