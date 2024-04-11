@@ -1,0 +1,5 @@
+File content:
+  1) scriptlet -  <% ...... %>
+  2) declaration - <%! ....... %>
+  3) directive - <%@page import = package1, packae2,...  %>
+  4) expression - <%= ...... %>
