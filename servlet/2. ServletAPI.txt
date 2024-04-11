@@ -1,0 +1,16 @@
+API:
+	~ API is a mechanism that allows two software components to communicate with each other using a set of definition and protocols.
+	~ There are 4 types of API used in web services. They are,
+		> Public
+		> Private
+		> Partner
+      	> Composite
+
+SERVLET API:
+	~ Two packages in java that represents API's for SERVLET. They are,
+		> javax.servlet
+			- javax.servlet package contains many interfaces and classes that are used by servlet or web container
+			- These are not specific  to any protocol.
+
+		> javax.servlet.http
+			- javax.servlet.http package contains interface and class that are used by http request only.
