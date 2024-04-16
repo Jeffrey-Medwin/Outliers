@@ -1,5 +1,15 @@
 File content:
   1) scriptlet -  <% ...... %>
+		~ contains the java code
   2) declaration - <%! ....... %>
+		~ to declare any varibale or methods
   3) directive - <%@page import = package1, packae2,...  %>
   4) expression - <%= ...... %>
+		~ prints to the output screen without having 'out()'
+
+Implicit objects:
+	These objects are created by web container and will be avliable for all jsp files.
+	1) PrintWriter out;
+	2) HttpservletRequest;
+	3) HttpservletResponse;
+	
