@@ -1,0 +1,115 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0px;
+}
+
+header{
+	color: black;
+	display: flex;
+	justify-content: center;
+	background-color: #97EAFF;
+	padding: 30px 0px 30px 0px;
+}
+
+#quizz{
+	margin: auto;
+	font-size: 50px;
+  	font-family: "Poppins", sans-serif;
+  	font-weight: 800;
+  	font-style: italic;
+	cursor: pointer;
+}
+
+.newUser{
+	margin-top: 30px;
+	cursor: pointer;
+}
+h6{
+	margin-left: 85%;
+    font-size: 20px;
+}
+
+img{
+	margin-left: 86%;
+}
+
+#dateTime{
+	font-size: 20px;
+	margin-right: 50px;
+	align-content: center;
+	text-align: center;
+	cursor: pointer;
+}
+
+main{
+	text-align: center;
+	background-color: mintcream;
+	padding: 100px 0px 50px 0px;
+  	font-family: "Poppins", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+input{
+	font-size: 28px;
+	margin-top: 40px;
+}
+
+input[type=text],input[type=password]{
+	background-color: mintcream;
+	border-color: transparent;
+	border-bottom: 2px solid black;
+}
+
+input[type=submit]{
+	padding: 5px 30px;
+	color: black;
+	background-color: #97EAFF;
+	border-radius: 10px 0px 10px 0px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	transition: 0.6s;
+	background-color: deepskyblue;
+}
+
+#websites{
+	color: black;
+    background-color: #97EAFF;
+    font-size: larger;
+    padding: 15px 0px 15px 15px;
+    display: flex;
+}
+
+.container{
+	background-color: #237DA0;
+	padding: 40px;
+}
+h5{	 
+	margin: inherit;
+}
+.image{
+	display: flex;
+	margin-left: 80%;
+	justify-content: space-between;
+}
+
+img#newuser{
+	filter: grayscale(50%);
+}
+
+img#newuser:hover{
+	transition: 0.5s;
+	filter: grayscale(0%);
+}
+
+#linkedin{
+	margin-left:-9%;
+}
+
+#facebook{
+	margin-left:42%;
+}
+
