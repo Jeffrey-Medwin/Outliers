@@ -1,0 +1,35 @@
+import java.util.Arrays;
+import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient; 
+import com.amazonaws.services.dynamodbv2.document.DynamoDB; 
+import com.amazonaws.services.dynamodbv2.document.Table; 
+import com.amazonaws.services.dynamodbv2.model.AttributeDefinition; 
+import com.amazonaws.services.dynamodbv2.model.KeySchemaElement; 
+import com.amazonaws.services.dynamodbv2.model.ProvisionedThroughput;
+
+public class CreateTable {
+  public static void main(String[] args) {
+    AmazonDynamoDBClient client = new AmazonDynamoDBClient()
+    		.withEndpoint("http://localhost:8000");
+    DynamoDB dynamoDB = new DynamoDB(client);
+    String tableName = "VOLLEY_BALL";
+
+    try {
+      System.out.println("Creating Table....");
+      Table table = dynamoDB.createTable (tableName, 
+        Arrays.asList (
+          new KeySchemaElement("team_name", "HASH"),
+          new KeySchemaElement("player_name", "RANGE")
+        ),
+        Arrays.asList (
+            new AttributeDefinition("team_name", "S"),
+            new AttributeDefinition("player_name", "S")
+        ),
+        new ProvisionedThroughput(10L, 10L)
+      );
+      table.waitForActive();
+      System.out.println("Table Created successfully ;)");
+    } catch (Exception e) {
+      System.out.println("Table has not been created :(");
+    }
+  }
+}
