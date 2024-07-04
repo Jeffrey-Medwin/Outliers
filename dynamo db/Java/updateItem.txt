@@ -1,0 +1,12 @@
+public void updateItem() {
+  AmazonDynamoDBClient client = new AmazonDynamoDBCLient()
+    .withEndpoint("http://localhost:8000");
+
+  DynamoDb dynamoDB = new DynamoDB(client);
+
+  Table table = dynamoDB.getTable("VOLLEY_BALL");
+
+  try {
+    I
+  } catch(Exception e) {}
+}
