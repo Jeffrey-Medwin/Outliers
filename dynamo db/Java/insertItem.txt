@@ -2,5 +2,33 @@ public void insertItem() {
   AmazonDynamoDBClient client = new AmazonDynamoDBClient()
     .withEndpoint("http://localhost:8000");
 
+  DynamoDB dynamoDB = new DyamoDB(client);
+  Table table = dynamoDB.getTable("VOLLEY_BALL");
+
+  try {
+    System.out.println("Inserting data...");
+
+    JSONObject jsonobj = new JSONObject();
+    jsonobj.put("player_id", 21);
+
+    HashMap<String, List<String>> hashmap = new HashMap<String, List<String>>();
+    List<String> list = new ArrayList<String>();
+
+    list.add("list value 1");
+    list.add("list value 2");
+
+    hashmap.put("hashmapkey", list);
+
+    Item item = new Item()
+      .withString("team_name", "outlier")
+      .withString("player_name", "Jeffrey Medwin R")
+      .withJSON("JSON Data", jsonobj)
+      .withMap("HashMap", hashmap);
+
+    table.put(item);
+    System.out.println("Data inserted successfully");  
+  } catch(Exception e) {
+    System.out.println("Cannot insert the data");
+  }
   
 }
