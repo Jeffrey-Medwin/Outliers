@@ -1,3 +1,6 @@
-public void inserItem() {
+public void insertItem() {
+  AmazonDynamoDBClient client = new AmazonDynamoDBClient()
+    .withEndpoint("http://localhost:8000");
 
+  
 }
