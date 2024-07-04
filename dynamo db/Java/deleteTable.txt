@@ -1,0 +1,18 @@
+public void deleteTable() {
+  AmazonDynamoDBClient client = new AmazonDynamoDBClient()
+    .withEndpoint("http://localhost:8000");
+
+  DynamoDB dynamoDB = new DynamoDB(client);
+
+  Table table = dynamoDB.getTable("VOLLEY_BALL");
+
+  try {
+    System.out.println("Deleting table...");
+    table.delete();
+    table.waitForDelete();
+    System.out.println("Table deleted successfully");
+  } catch (Exception e) {
+    System.out.println("Table cannot be deleted");
+    e.printStackTrace();
+  }
+}
